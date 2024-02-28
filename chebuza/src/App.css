@@ -1,0 +1,68 @@
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.appContainer {
+  padding: 0px 300px;
+}
+
+.packageCardContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.quantityFilterDiv {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.filterButton {
+  margin-left: 20px !important;
+  background-color: #19bae5 !important;
+}
+
+.packageTypeCard {
+  background: #19bae5 !important;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  border-radius: 8px;
+  border:none;
+  box-shadow: none; 
+  font-weight: 500;
+}
+.packageTypeCard:hover {
+  background: white !important;
+  color: #19bae5;
+  padding: 5px 15px;
+  text-align: center;
+  border: 1px solid #19bae5;
+  box-shadow: none;
+}
+
+.header {
+  padding: 30px 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #19bae5;
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 30px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homeText {
+  font-size: 15px;
+  color: #19bae5;
+}
+.homeText:hover{
+  cursor: pointer;
+}
